@@ -1,10 +1,10 @@
 class DedupeArrayIterative {
 	dedupe(array) {
-		let set = [];
+		let set = []
 
 		for (let i = 0; i < array.length; i++) {
 			if (!set.includes(array[i])) {
-				set.push(array[i]);
+				set.push(array[i])
 			}
 		}
 
@@ -20,5 +20,5 @@ class DedupeArrayIterative {
 /* SAMPLE RUNNER */
 /*****************/
 
-const dai = new DedupeArrayIterative();
-dai.run([1,1,2,3,4,5,4]);
+const dai = new DedupeArrayIterative()
+dai.run([1,1,2,3,4,5,4])
